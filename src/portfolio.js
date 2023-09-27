@@ -154,7 +154,7 @@ const workExperiences = {
       date: "September 2023 – Present",
       desc: "Designed and optimized RESTful APIs to facilitate seamless connection between FordPro clients and data",
       descBullets: [
-        "Implemented numerous calls to FordPro clients using Java Springboot",
+        "Implemented numerous calls to FordPro clients using Java Springboot and GraphQL",
         "Coordinated with cross-functional teams to develop, integrate, and maintain robust APIs"
       ]
     },
