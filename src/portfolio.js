@@ -257,7 +257,7 @@ const achievementSection = {
       title: "WildCard Startup Tech Lead",
       subtitle:
         "Tech Lead at the Junior Achievement Central Ontario company program startup WildCard",
-      image: require("./assets/images/jacoLogo.jpg"),
+      image: require("./assets/images/jacoLogo.jpeg"),
       imageAlt: "jaco Logo",
       footerLink: []
     }

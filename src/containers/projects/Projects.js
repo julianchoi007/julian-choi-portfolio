@@ -14,6 +14,19 @@ export default function Projects() {
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
+  return (
+    <Suspense fallback={renderLoader()}>
+      <div className="main" id="opensource">
+        <h1 className="project-title">Open Source Projects</h1>
+        <Button
+          text={"More Projects"}
+          className="project-button"
+          href={socialMediaLinks.github}
+          newTab={true}
+        />
+      </div>
+    </Suspense>
+  );
   useEffect(() => {
     const getRepoData = () => {
       fetch("/profile.json")
@@ -39,36 +52,36 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
-          <div className="repo-cards-div-main">
-            {repo.map((v, i) => {
-              if (!v) {
-                console.error(
-                  `Github Object for repository number : ${i} is undefined`
-                );
-              }
-              return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
-            })}
-          </div>
-          <Button
-            text={"More Projects"}
-            className="project-button"
-            href={socialMediaLinks.github}
-            newTab={true}
-          />
-        </div>
-      </Suspense>
-    );
-  } else {
-    return <FailedLoading />;
-  }
+  // if (
+  //   !(typeof repo === "string" || repo instanceof String) &&
+  //   openSource.display
+  // ) {
+  //   return (
+  //     <Suspense fallback={renderLoader()}>
+  //       <div className="main" id="opensource">
+  //         <h1 className="project-title">Open Source Projects</h1>
+  //         <div className="repo-cards-div-main">
+  //           {repo.map((v, i) => {
+  //             if (!v) {
+  //               console.error(
+  //                 `Github Object for repository number : ${i} is undefined`
+  //               );
+  //             }
+  //             return (
+  //               <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
+  //             );
+  //           })}
+  //         </div>
+  //         <Button
+  //           text={"More Projects"}
+  //           className="project-button"
+  //           href={socialMediaLinks.github}
+  //           newTab={true}
+  //         />
+  //       </div>
+  //     </Suspense>
+  //   );
+  // } else {
+  //   return <FailedLoading />;
+  // }
 }
