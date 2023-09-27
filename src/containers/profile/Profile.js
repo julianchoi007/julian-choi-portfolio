@@ -36,17 +36,18 @@ export default function Profile() {
       getProfileData();
     }
   }, []);
-  if (
-    openSource.display &&
-    openSource.showGithubProfile === "true" &&
-    !(typeof prof === "string" || prof instanceof String)
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} />
-      </Suspense>
-    );
-  } else {
-    return <Contact />;
-  }
+  // if (
+  //   openSource.display &&
+  //   openSource.showGithubProfile === "true" &&
+  //   !(typeof prof === "string" || prof instanceof String)
+  // ) {
+  //   return (
+  //     <Suspense fallback={renderLoader()}>
+  //       <GithubProfileCard prof={prof} key={prof.id} />
+  //     </Suspense>
+  //   );
+  // } else {
+  // return <Contact />;
+  // }
+  return <Contact />;
 }
