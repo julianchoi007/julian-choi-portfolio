@@ -152,10 +152,10 @@ const workExperiences = {
       company: "Ford Pro Tech",
       companylogo: require("./assets/images/fordproLogo.jpg"),
       date: "September 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Designed and optimized RESTful APIs to facilitate seamless connection between FordPro clients and data",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented numerous calls to FordPro clients using Java Springboot",
+        "Coordinated with cross-functional teams to develop, integrate, and maintain robust APIs"
       ]
     },
     {
@@ -235,42 +235,31 @@ const achievementSection = {
     {
       title: "Shad Fellow",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Connected with other university students to create a prototype of a cardiovascular system in space.",
       image: require("./assets/images/shadLogo.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Shad Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        //   {
+        //     name: "View Google Assistant Action",
+        //     url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        //   }
       ]
     },
 
     {
       title: "First Robotics Member",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      subtitle: "Constructed Robots to compete in First Robotic competitions",
       image: require("./assets/images/firstroboLogo.png"),
       imageAlt: "First Robotics Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      footerLink: []
     },
     {
       title: "WildCard Startup Tech Lead",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Tech Lead at the Junior Achievement Central Ontario company program startup WildCard",
       image: require("./assets/images/jacoLogo.jpg"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      imageAlt: "jaco Logo",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
