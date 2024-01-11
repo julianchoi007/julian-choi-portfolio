@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/julian-choi-portfolio/static/css/main.70b77976.css",
-    "main.js": "/julian-choi-portfolio/static/js/main.f70c24c3.js",
+    "main.js": "/julian-choi-portfolio/static/js/main.075c93cc.js",
     "static/css/64.bba8fa55.chunk.css": "/julian-choi-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.5da5f0b6.chunk.js": "/julian-choi-portfolio/static/js/64.5da5f0b6.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/julian-choi-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -22,7 +22,7 @@
     "index.html": "/julian-choi-portfolio/index.html",
     "static/media/talksCardBack.svg": "/julian-choi-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.70b77976.css.map": "/julian-choi-portfolio/static/css/main.70b77976.css.map",
-    "main.f70c24c3.js.map": "/julian-choi-portfolio/static/js/main.f70c24c3.js.map",
+    "main.075c93cc.js.map": "/julian-choi-portfolio/static/js/main.075c93cc.js.map",
     "64.bba8fa55.chunk.css.map": "/julian-choi-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.5da5f0b6.chunk.js.map": "/julian-choi-portfolio/static/js/64.5da5f0b6.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/julian-choi-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.70b77976.css",
-    "static/js/main.f70c24c3.js"
+    "static/js/main.075c93cc.js"
   ]
 }
